@@ -51,12 +51,13 @@ def dennis_ritchies_language
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
         },
+        
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
         }
      }
-     string = programmer_hash[:dennis_ritchie][:languages]
+     string = programmer_hash[:dennis_ritchie][:languages[0]]
      puts string
 end
 
